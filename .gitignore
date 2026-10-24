@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# TCIA images and forms, and the models (not redistributed)
+data/*
+!data/tcia_series.csv
+models/
+
+# Outputs (written by the scripts)
+results/
+figures/
+qc/
+logs/
+work/
